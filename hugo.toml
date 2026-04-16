@@ -2,3 +2,29 @@ baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'Maarten Flippo'
 theme = 'archie'
+
+# -----------------------------------------------
+# Footer
+# -----------------------------------------------
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/maartenflippo"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://linkedin.com/maartenflippo/"
+
+# -----------------------------------------------
+# Menu
+# -----------------------------------------------
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
