@@ -27,7 +27,7 @@ url = "https://github.com/maartenflippo"
 [[params.social]]
 name = "LinkedIn"
 icon = "linkedin"
-url = "https://linkedin.com/maartenflippo/"
+url = "https://www.linkedin.com/in/maarten-flippo/"
 
 [caches.images]
 dir = ":cacheDir/images"
