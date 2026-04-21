@@ -9,7 +9,7 @@ copyright = "Maarten Flippo"
 # -----------------------------------------------
 [params]
 # Path to your profile photo (place the image in static/img/)
-profilePicture = "/img/profile.jpg"
+profilePicture = "/img/me.jpg"
 profilePictureAlt = "Maarten Flippo"
 # Your name as it appears in publication author lists — will be rendered in bold
 authorName = "Maarten Flippo"

@@ -16,11 +16,14 @@
     object-fit: cover;
     border-radius: 50%;
     flex-shrink: 0;
-    border: 3px solid var(--color-border, #663399);
 }
 
 .about-text {
     flex: 1;
+}
+
+.about-text h2 {
+    margin-top: 0;
 }
 
 @media (max-width: 37.4em) {
@@ -67,7 +70,7 @@
     font-size: 0.9em;
 
     display: block;
-    margin-top: 0.4em;
+    margin-top: 0.5em;
 }
 
 .pub-venue {
@@ -76,5 +79,5 @@
     font-style: italic;
 
     display: block;
-    margin-top: 0.4em;
+    margin-top: 0.3em;
 }
