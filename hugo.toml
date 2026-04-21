@@ -1,7 +1,7 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'Maarten Flippo'
-theme = 'archie'
+baseURL = "https://maartenflippo.com/"
+locale = "en-us"
+title = "Maarten Flippo"
+theme = "archie"
 copyright = "Maarten Flippo"
 
 # -----------------------------------------------
@@ -30,4 +30,4 @@ icon = "linkedin"
 url = "https://linkedin.com/maartenflippo/"
 
 [caches.images]
-dir = ':cacheDir/images'
+dir = ":cacheDir/images"
