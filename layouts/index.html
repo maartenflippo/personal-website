@@ -33,14 +33,12 @@
                                 {{ .title }}
                                 {{- end -}}
                             </span>
-                            <br>
                             <span class="pub-authors">
                                 {{- range $i, $author := (split .authors ", ") -}}
                                     {{- if gt $i 0 }}, {{ end -}}
                                     {{- if eq $author $authorName -}}<strong>{{ $author }}</strong>{{- else -}}{{ $author }}{{- end -}}
                                 {{- end -}}
                             </span>
-                            <br>
                             <span class="pub-venue">{{ .venue }}{{ if .year }}, {{ .year }}{{ end }}</span>
                         </li>
                         {{ end }}

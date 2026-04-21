@@ -2,6 +2,7 @@ baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'Maarten Flippo'
 theme = 'archie'
+copyright = "Maarten Flippo"
 
 # -----------------------------------------------
 # Theme parameters
@@ -31,12 +32,12 @@ url = "https://linkedin.com/maartenflippo/"
 # -----------------------------------------------
 # Menu
 # -----------------------------------------------
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
+# [[menu.main]]
+# name = "Home"
+# url = "/"
+# weight = 1
+# 
+# [[menu.main]]
+# name = "All posts"
+# url = "/posts"
+# weight = 2

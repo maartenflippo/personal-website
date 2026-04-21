@@ -1,3 +1,7 @@
+:root {
+  --font-size-base: 16px;
+}
+
 /* About Me section */
 .about-section {
     display: flex;
@@ -55,15 +59,22 @@
 
 .pub-title {
     font-weight: bold;
+    display: block;
 }
 
 .pub-authors {
     color: var(--color-text-muted, #737373);
     font-size: 0.9em;
+
+    display: block;
+    margin-top: 0.4em;
 }
 
 .pub-venue {
     color: var(--color-text-muted, #737373);
     font-size: 0.9em;
     font-style: italic;
+
+    display: block;
+    margin-top: 0.4em;
 }
