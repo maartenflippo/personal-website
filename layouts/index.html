@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "header.html" . }}
+    <body>
+        <div class="content">
+            {{ partial "head.html" . }}
+
+            <main>
+                {{- $profilePicture := .Site.Params.profilePicture -}}
+                {{- $profilePictureAlt := .Site.Params.profilePictureAlt | default "Profile photo" -}}
+                {{- $authorName := .Site.Params.authorName -}}
+                {{- $publications := .Params.publications -}}
+
+                <section class="about-section">
+                    {{ with $profilePicture }}
+                    <img class="profile-photo" src="{{ . }}" alt="{{ $profilePictureAlt }}" />
+                    {{ end }}
+                    <div class="about-text">
+                        {{ .Content }}
+                    </div>
+                </section>
+
+                {{ with $publications }}
+                <section class="publications-section">
+                    <h2>Publications</h2>
+                    <ol class="publications-list">
+                        {{ range . }}
+                        <li class="publication-item">
+                            <span class="pub-title">
+                                {{- if .url -}}
+                                <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                                {{- else -}}
+                                {{ .title }}
+                                {{- end -}}
+                            </span>
+                            <br>
+                            <span class="pub-authors">
+                                {{- range $i, $author := (split .authors ", ") -}}
+                                    {{- if gt $i 0 }}, {{ end -}}
+                                    {{- if eq $author $authorName -}}<strong>{{ $author }}</strong>{{- else -}}{{ $author }}{{- end -}}
+                                {{- end -}}
+                            </span>
+                            <br>
+                            <span class="pub-venue">{{ .venue }}{{ if .year }}, {{ .year }}{{ end }}</span>
+                        </li>
+                        {{ end }}
+                    </ol>
+                </section>
+                {{ end }}
+            </main>
+
+            {{ partial "footer.html" . }}
+        </div>
+    </body>
+</html>
