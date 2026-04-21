@@ -29,15 +29,5 @@ name = "LinkedIn"
 icon = "linkedin"
 url = "https://linkedin.com/maartenflippo/"
 
-# -----------------------------------------------
-# Menu
-# -----------------------------------------------
-# [[menu.main]]
-# name = "Home"
-# url = "/"
-# weight = 1
-# 
-# [[menu.main]]
-# name = "All posts"
-# url = "/posts"
-# weight = 2
+[caches.images]
+dir = ':cacheDir/images'
