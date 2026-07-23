@@ -1,10 +1,28 @@
 ---
 publications:
-  - title: "A Multi-Stage Proof Logging Framework to Certify the Correctness of CP Solvers"
-    authors: "Maarten Flippo, Konstantin Sidorov, Imko Marijnissen, Jeff Smits, Emir Demirović"
-    venue: "30th International Conference on Principles and Practice of Constraint Programming (CP 2024)"
-    year: 2024
-    url: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.11"
+  - title: "Formally Verified Certification of Constraint Programming Proofs"
+    authors: "Maarten Flippo, Konstantin Sidorov, Tip ten Brink, Clément Pit-Claudel, Emir Demirović"
+    venue: "32nd International Conference on Principles and Practice of Constraint Programming (CP 2026)"
+    year: 2026
+    url: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2026.24"
+
+  - title: "From Literals to Atomic Constraints: Generalising Conflict-Driven Clause Learning for Constraint Programming"
+    authors: "Imko Marijnissen, Maarten Flippo, Emir Demirović"
+    venue: "32nd International Conference on Principles and Practice of Constraint Programming (CP 2026)"
+    year: 2026
+    url: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2026.42"
+
+  - title: "Resolution Meets Cutting Planes: Introducing Hypercube Linear Resolution"
+    authors: "Maarten Flippo, Peter J. Stuckey, Emir Demirović"
+    venue: "International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research"
+    year: 2026
+    url: "https://link.springer.com/chapter/10.1007/978-3-032-27242-3_10"
+
+  - title: "Using Certifying Constraint Solvers for Generating Step-wise Explanations"
+    authors: "Ignace Bleukx, Maarten Flippo, Bart Bogaerts, Emir Demirović, Tias Guns"
+    venue: "Proceedings of the AAAI Conference on Artificial Intelligence"
+    year: 2026
+    url: "https://ojs.aaai.org/index.php/AAAI/article/view/38432"
 
   - title: "Conflict Analysis Based on Cutting-Planes for Constraint Programming"
     authors: "Robbin Baauw, Maarten Flippo, Emir Demirović"
@@ -12,11 +30,11 @@ publications:
     year: 2025
     url: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2025.4"
 
-  - title: "Using Certifying Constraint Solvers for Generating Step-wise Explanations"
-    authors: "Ignace Bleukx, Maarten Flippo, Bart Bogaerts, Emir Demirović, Tias Guns"
-    venue: "Proceedings of the AAAI Conference on Artificial Intelligence"
-    year: 2026
-    url: "https://ojs.aaai.org/index.php/AAAI/article/view/38432"
+  - title: "A Multi-Stage Proof Logging Framework to Certify the Correctness of CP Solvers"
+    authors: "Maarten Flippo, Konstantin Sidorov, Imko Marijnissen, Jeff Smits, Emir Demirović"
+    venue: "30th International Conference on Principles and Practice of Constraint Programming (CP 2024)"
+    year: 2024
+    url: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.11"
 ---
 
 Hi! 
